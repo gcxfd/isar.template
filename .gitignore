@@ -2,6 +2,8 @@
 .dart_tool/
 .packages
 
+libisar.dylib
+
 # Conventional directory for build output.
 build/
 db/
