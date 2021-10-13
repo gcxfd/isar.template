@@ -1,6 +1,6 @@
 import 'package:isar/isar.dart';
-import '../lib/isar.g.dart';
-import '../lib/db.dart';
+import 'package:rmw/isar.g.dart';
+import 'package:rmw/db.dart';
 
 void main(List<String> arguments) async {
   final isar = await openIsar(
