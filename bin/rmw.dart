@@ -8,7 +8,6 @@ void main(List<String> arguments) async {
       name:"db"
   );
   final contact = Contact()
-      ..id =  null
       ..name = "My first contact";
 
   await isar.writeTxn((isar) async {
